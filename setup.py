@@ -14,7 +14,6 @@ setuptools.setup(
   url='https://github.com/reactivehub-io/reactivehub-sdk-python',
   packages=setuptools.find_packages(),
   classifiers=[
-    "Programming Language :: Python :: 2",
     "Programming Language :: Python :: 3",
     "License :: Apache 2.0",
     "Operating System :: OS Independent",
