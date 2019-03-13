@@ -1,6 +1,6 @@
-# Reactivehub Python SDK
+# reactivehub.io Python SDK
 
-The Reactivehub Python SDK implements the methods needed to publish in the [Event](https://docs.reactivehub.io/guide/events) API.
+The reactivehub.io Python SDK implements the methods needed to publish in the [Events](https://docs.reactivehub.io/guide/events) API.
 
 ## Installation
 
