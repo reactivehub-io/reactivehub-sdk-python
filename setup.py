@@ -6,7 +6,6 @@ with open("README.md", "r") as fh:
 setup(
   name='reactivehub-sdk-python',
   version='0.2',
-  scripts=[''],
   author='reactivehub.io',
   author_email='luiz.gustavo@reactivehub.io',
   description='reactivehub.io Python SDK',
