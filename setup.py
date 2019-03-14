@@ -13,6 +13,7 @@ setup(
   long_description='The Reactivehub Python SDK implements the methods needed to publish in the Events API.',
   url='https://github.com/reactivehub-io/reactivehub-sdk-python',
   packages=setuptools.find_packages(),
+  license='Apache 2.0',
   classifiers=[
     "Programming Language :: Python :: 3",
     "License :: Apache 2.0",
