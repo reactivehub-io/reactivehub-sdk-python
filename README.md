@@ -1,15 +1,29 @@
 # reactivehub.io Python SDK
 
-The reactivehub.io Python SDK implements the methods to publish in [Event](https://docs.reactivehub.io/guide/events) api 
+The reactivehub.io Python SDK implements the methods needed to publish in the [Events](https://docs.reactivehub.io/guide/events) API.
 
 ## Installation
 
-Via pip
-``` TODO ```
+Via pip:
+
+```pip install reactivehub-sdk-python```
 
 ## Usage
 
-``` TODO ```
+Configure your client:
+
+```
+from reactivehub import Client
+reactivehub_client = Client('<team-name>', '<client-key>', '<client-secret>')
+```
+
+
+Then you'll be able to publish events like this:
+
+```
+result = reactivehub_client.publish_event('<event-name>', {'key': 'keyValue', ...})
+```
+
 
 ## How to contribute
 We'd love to accept your patches and contributions to this project. There are just a few small guidelines you need to follow.
